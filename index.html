@@ -24,9 +24,11 @@
                 <form class="tourist-spots-form">
                     <div class="tourist-spots-inputs">
                         <div class="tourist-spots-image-input">
-                            <label for="image" class="tourist-spots-image-input-label"></label>
-                            <span class="tourist-spots-image-input-span">Imagem</span>
-                            <input class="tourist-spots-image-input-file" type="file" name="image" id="image">
+                            <label for="image" class="tourist-spots-image-input-label">
+                                <span class="tourist-spots-image-input-span">Imagem</span>
+                                <input class="tourist-spots-image-input-file" type="file" name="image" id="image">
+                                <img class="tourist-spots-image-preview" src="" alt="">
+                            </label>
                         </div>
                         <div class="tourist-spots-text-input">
                             <input type="text" class="tourist-spots-text-input-title" id="tourist-spots-text-input-title" name="tourist-spots-text-input-title" placeholder="Título">
@@ -39,7 +41,7 @@
                 <h2 class="tourist-spots-result-title">Pontos Turísticos</h2>
                 <div class="tourist-spots-result">
                     <div class="tourist-spots-result-card">
-                        <img src="images/pao-de-acucar.png" alt="Pão de Açúcar" >
+                        <img class="tourist-spots-result-card-image" src="images/pao-de-acucar.png" alt="Pão de Açúcar" >
                         <div class="tourist-spots-result-card-text">
                             <h2 class="tourist-spots-result-card-title">Pão de Açúcar</h2>
                             <p class="tourist-spots-result-card-description">Amet minim mollit non deserunt ullamco est sit aliqua dolor dosa amet sint. Velit officia consece duis enim velit mollit.</p>
@@ -48,7 +50,7 @@
                     </div>
 
                     <div class="tourist-spots-result-card">
-                        <img src="images/ilha-grande.png" alt="Ilha Grande" >
+                        <img class="tourist-spots-result-card-image" src="images/ilha-grande.png" alt="Ilha Grande" >
                         <div class="tourist-spots-result-card-text">
                             <h2 class="tourist-spots-result-card-title">Ilha Grande</h2>
                             <p class="tourist-spots-result-card-description">Amet minim mollit non deserunt ullamco est sit aliqua dolor dosa amet sint. Velit officia consece duis enim velit mollit.</p>
@@ -57,7 +59,7 @@
                     </div>
 
                     <div class="tourist-spots-result-card">
-                        <img src="images/cristo-redentor.png" alt="Cristo Redentor" >
+                        <img class="tourist-spots-result-card-image" src="images/cristo-redentor.png" alt="Cristo Redentor" >
                         <div class="tourist-spots-result-card-text">
                             <h2 class="tourist-spots-result-card-title">Cristo Redentor</h2>
                             <p class="tourist-spots-result-card-description">Amet minim mollit non deserunt ullamco est sit aliqua dolor dosa amet sint. Velit officia consece duis enim velit mollit.</p>
@@ -66,13 +68,15 @@
                     </div>
 
                     <div class="tourist-spots-result-card">
-                        <img src="images/centro-paraty.png" alt="Centro Histórico de Paraty" >
+                        <img class="tourist-spots-result-card-image" src="images/centro-paraty.png" alt="Centro Histórico de Paraty" >
                         <div class="tourist-spots-result-card-text">
                             <h2 class="tourist-spots-result-card-title">Centro Histórico de Paraty</h2>
                             <p class="tourist-spots-result-card-description">Amet minim mollit non deserunt ullamco est sit aliqua dolor dosa amet sint. Velit officia consece duis enim velit mollit.</p>
-                        </div>
-                        
+                        </div>    
                     </div>
+
+                    <div class="tourist-spots-card-new"></div>
+
                 </div>
             </section>
 
