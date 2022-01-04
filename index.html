@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+    <head>
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+        
+
+
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        
+        <title>Desafio Ponto Turístico</title>
+
+        <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@700&display=swap" rel="stylesheet" />
+        <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet" />
+        <link rel="stylesheet" href="styles/main.css" /> 
+    </head>
+
+    <body>
+        <main>
+            <section class="tourist-spots-container">
+                <h2 class="tourist-spots-add-title">Adicionar um Ponto Turístico</h2>
+                <form class="tourist-spots-form">
+                    <div class="tourist-spots-inputs">
+                        <div class="tourist-spots-image-input">
+                            <label for="image" class="tourist-spots-image-input-label"></label>
+                            <span class="tourist-spots-image-input-span">Imagem</span>
+                            <input class="tourist-spots-image-input-file" type="file" name="image" id="image">
+                        </div>
+                        <div class="tourist-spots-text-input">
+                            <input type="text" class="tourist-spots-text-input-title" id="tourist-spots-text-input-title" name="tourist-spots-text-input-title" placeholder="Título">
+                            <input type="text" class="tourist-spots-text-input-description" id="tourist-spots-text-input-description" name="tourist-spots-text-input-description" placeholder="Descrição">
+                            <button class="tourist-spots-text-submit-button" type="submit">Adicionar</button>
+                        </div>
+                    </div>
+                </form>
+
+                <h2 class="tourist-spots-result-title">Pontos Turísticos</h2>
+                <div class="tourist-spots-result">
+                    <div class="tourist-spots-result-card">
+                        <img src="images/pao-de-acucar.png" alt="Pão de Açúcar" >
+                        <div class="tourist-spots-result-card-text">
+                            <h2 class="tourist-spots-result-card-title">Pão de Açúcar</h2>
+                            <p class="tourist-spots-result-card-description">Amet minim mollit non deserunt ullamco est sit aliqua dolor dosa amet sint. Velit officia consece duis enim velit mollit.</p>
+                        </div>
+                        
+                    </div>
+
+                    <div class="tourist-spots-result-card">
+                        <img src="images/ilha-grande.png" alt="Ilha Grande" >
+                        <div class="tourist-spots-result-card-text">
+                            <h2 class="tourist-spots-result-card-title">Ilha Grande</h2>
+                            <p class="tourist-spots-result-card-description">Amet minim mollit non deserunt ullamco est sit aliqua dolor dosa amet sint. Velit officia consece duis enim velit mollit.</p>
+                        </div>
+                        
+                    </div>
+
+                    <div class="tourist-spots-result-card">
+                        <img src="images/cristo-redentor.png" alt="Cristo Redentor" >
+                        <div class="tourist-spots-result-card-text">
+                            <h2 class="tourist-spots-result-card-title">Cristo Redentor</h2>
+                            <p class="tourist-spots-result-card-description">Amet minim mollit non deserunt ullamco est sit aliqua dolor dosa amet sint. Velit officia consece duis enim velit mollit.</p>
+                        </div>
+                        
+                    </div>
+
+                    <div class="tourist-spots-result-card">
+                        <img src="images/centro-paraty.png" alt="Centro Histórico de Paraty" >
+                        <div class="tourist-spots-result-card-text">
+                            <h2 class="tourist-spots-result-card-title">Centro Histórico de Paraty</h2>
+                            <p class="tourist-spots-result-card-description">Amet minim mollit non deserunt ullamco est sit aliqua dolor dosa amet sint. Velit officia consece duis enim velit mollit.</p>
+                        </div>
+                        
+                    </div>
+                </div>
+            </section>
+
+        </main>
+        <script src="scripts/app.js"></script>
+    </body>
+</html>
